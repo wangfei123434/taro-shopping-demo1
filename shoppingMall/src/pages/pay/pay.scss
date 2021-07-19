@@ -1,0 +1,90 @@
+.pay{
+  .myAddress{
+    padding: 20px;
+    .title{
+      font-weight: bold;
+      font-size: 35px;
+      color: red;
+      margin-bottom: 10px;
+    }
+    .user{
+      width: 100%;
+      overflow: hidden;
+      .text1{
+        float: left;
+      }
+      .text2{
+        float: right;
+      }
+    }
+  }
+
+  .title{
+    font-weight: bold;
+    font-size: 35px;
+    color: red;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+  }
+
+  .goodsDetail{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid greenyellow;
+    .goodsDetai_img{
+      width: 30%;
+      box-sizing: border-box;
+      image{
+        width: 90%;
+        height: 90%;
+      }
+    }
+    .goodsDetail_content{
+      width: 70%;
+      box-sizing: border-box;
+      .content_title{
+        padding-right: 10px;
+      }
+      .content_price{
+        width: 100%;
+        overflow: hidden;
+        .left{
+          color: red;
+          font-weight: bold;
+        }
+        .right{
+          float: right;
+          font-weight: bold;
+          margin-right: 30px;
+        }
+      }
+    }
+
+  }
+
+  .footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    border-top: 2px solid #ccc;
+    height: 80px;
+    line-height: 80px;
+    .total{
+      width: 70%;
+      text-align: right;
+      padding-right: 20px;
+      text{
+        color: red;
+      }
+    }
+    .right{
+      width: 30%;
+      color: #fff;
+      background-color: #ff655d;
+      text-align: center;
+    }
+  }
+}

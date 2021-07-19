@@ -1,0 +1,29 @@
+.goods_list{
+  .item{
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    padding: 20px 0;
+    .item_img{
+      width: 35%;
+      height: 250px;
+      padding: 10px;
+      image{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .item_describe{
+      width: 65%;
+      padding: 20px;
+      .describe_title{
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .desceibe_price{
+        padding: 10px;
+        vertical-align: bottom;
+        color: red;
+      }
+    }
+  }
+}

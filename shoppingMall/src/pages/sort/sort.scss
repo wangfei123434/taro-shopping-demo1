@@ -1,0 +1,28 @@
+.sort{
+  .sort_content{
+    .itemTitle{
+       text-align: center;
+       font-weight: bold;
+       padding: 20px 0;
+    }
+    .itemContent{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      .itemChild{
+        text-align: center;
+        width: 33.333%;
+        box-sizing: border-box;
+        height: 200px;
+        border-left: 5px solid #fff;
+        image{
+          width: 100%;
+          height: 150px;
+        }
+        text{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

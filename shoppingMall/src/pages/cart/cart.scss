@@ -1,0 +1,116 @@
+.cart{
+  box-sizing: border-box;
+  .userMesg{
+    padding: 20px 0;
+    button{
+      width: 500px;
+    }
+    .user{
+      padding: 20px;
+      .name{
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 20px;
+        .name_i{
+          float: left;
+        }
+        .phone{
+          float: right;
+        }
+      }
+    }
+  }
+
+
+  .tag{
+    padding: 20px 0 20px 10px;
+    font-weight: bold;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+  }
+
+  .content{
+    .cartContent{
+      width: 100%;
+      display: flex;
+      height: 200px;
+      padding: 20px 0;
+      border-bottom: 1px solid #ccc;
+      .contentLeft{
+        width: 15%;
+        height: 100%;
+        padding: 0 20px;
+      }
+      .contentImg{
+        width: 25%;
+        height: 100%;
+        padding: 0 20px;
+        image{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .contentRight{
+        width: 60%;
+        height: 100%;
+        font-size: 25px;
+        padding: 0 20px;
+        .name{
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -ms-text-overflow: ellipsis;
+          display: box;
+          display: -webkit-box;
+          line-clamp: 1;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+        }
+        .operation{
+          margin-top: 50px;
+          width: 100%;
+          .price{
+            color: red;
+            font-size: 30px;
+            font-weight: bold;
+            float: left;
+          }
+          .num{
+            float: right;
+            text{
+              display: inline-block;
+              height: 50px;
+              width: 50px;
+              text-align: center;
+              line-height: 50px;
+            }
+            text:first-child,text:last-child{
+              border: 1px solid #ccc;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .totalBox{
+    display: flex;
+    width: 100%;
+    .checkAll{
+      width: 15%;
+    }
+    .total{
+      width: 60%;
+      text{
+        color: red;
+        font-weight: bold;
+      }
+    }
+    .jsuan{
+      width: 25%;
+      background-color: #ff645c;
+      color: #fff;
+    }
+  }
+}
